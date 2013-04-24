@@ -18,6 +18,12 @@
 		19428E55156915C0003DF9FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19428E3C156915BF003DF9FB /* Foundation.framework */; };
 		19428E5D156915C0003DF9FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19428E5B156915C0003DF9FB /* InfoPlist.strings */; };
 		19428E60156915C0003DF9FB /* PhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19428E5F156915C0003DF9FB /* PhotoTests.m */; };
+		19428E6B156916D8003DF9FB /* PicturePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 19428E6A156916D8003DF9FB /* PicturePicker.m */; };
+		19C5609317230EC200C9B6AA /* PetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C5609217230EC200C9B6AA /* PetView.m */; };
+		19C5609F17231EB100C9B6AA /* Pets in Resources */ = {isa = PBXBuildFile; fileRef = 19C5609E17231EB100C9B6AA /* Pets */; };
+		19C560A017231EB100C9B6AA /* Pets in Resources */ = {isa = PBXBuildFile; fileRef = 19C5609E17231EB100C9B6AA /* Pets */; };
+		19C560A3172469C700C9B6AA /* PetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C560A2172469C700C9B6AA /* PetViewController.m */; };
+		19C560A4172469C700C9B6AA /* PetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C560A2172469C700C9B6AA /* PetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19428E36156915BF003DF9FB /* Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19428E36156915BF003DF9FB /* pictpicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pictpicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19428E3A156915BF003DF9FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		19428E3C156915BF003DF9FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19428E3E156915BF003DF9FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		19428E42156915BF003DF9FB /* Photo-Info.plist */ = {isa = PBXFileReference; path = "Photo-Info.plist"; sourceTree = "<group>"; };
+		19428E42156915BF003DF9FB /* pictpicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pictpicker-Info.plist"; sourceTree = "<group>"; };
 		19428E44156915BF003DF9FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19428E46156915BF003DF9FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19428E48156915BF003DF9FB /* Photo-Prefix.pch */ = {isa = PBXFileReference; path = "Photo-Prefix.pch"; sourceTree = "<group>"; };
-		19428E49156915BF003DF9FB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		19428E48156915BF003DF9FB /* pictpicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pictpicker-Prefix.pch"; sourceTree = "<group>"; };
+		19428E49156915BF003DF9FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19428E4A156915BF003DF9FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19428E51156915C0003DF9FB /* PhotoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19428E51156915C0003DF9FB /* pictpickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pictpickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19428E52156915C0003DF9FB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		19428E5A156915C0003DF9FB /* PhotoTests-Info.plist */ = {isa = PBXFileReference; path = "PhotoTests-Info.plist"; sourceTree = "<group>"; };
+		19428E5A156915C0003DF9FB /* pictpickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pictpickerTests-Info.plist"; sourceTree = "<group>"; };
 		19428E5C156915C0003DF9FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		19428E5E156915C0003DF9FB /* PhotoTests.h */ = {isa = PBXFileReference; path = PhotoTests.h; sourceTree = "<group>"; };
+		19428E5E156915C0003DF9FB /* PhotoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTests.h; sourceTree = "<group>"; };
 		19428E5F156915C0003DF9FB /* PhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTests.m; sourceTree = "<group>"; };
+		19428E69156916D8003DF9FB /* PicturePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicturePicker.h; sourceTree = "<group>"; };
+		19428E6A156916D8003DF9FB /* PicturePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicturePicker.m; sourceTree = "<group>"; };
+		19C5609117230EC200C9B6AA /* PetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetView.h; sourceTree = "<group>"; };
+		19C5609217230EC200C9B6AA /* PetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetView.m; sourceTree = "<group>"; };
+		19C5609E17231EB100C9B6AA /* Pets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pets; sourceTree = "<group>"; };
+		19C560A1172469C700C9B6AA /* PetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetViewController.h; sourceTree = "<group>"; };
+		19C560A2172469C700C9B6AA /* PetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +89,8 @@
 		19428E2B156915BF003DF9FB = {
 			isa = PBXGroup;
 			children = (
-				19428E40156915BF003DF9FB /* Photo */,
-				19428E58156915C0003DF9FB /* PhotoTests */,
+				19428E40156915BF003DF9FB /* pictpicker */,
+				19428E58156915C0003DF9FB /* pictpickerTests */,
 				19428E39156915BF003DF9FB /* Frameworks */,
 				19428E37156915BF003DF9FB /* Products */,
 			);
@@ -86,8 +99,8 @@
 		19428E37156915BF003DF9FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19428E36156915BF003DF9FB /* Photo.app */,
-				19428E51156915C0003DF9FB /* PhotoTests.octest */,
+				19428E36156915BF003DF9FB /* pictpicker.app */,
+				19428E51156915C0003DF9FB /* pictpickerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,41 +116,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19428E40156915BF003DF9FB /* Photo */ = {
+		19428E40156915BF003DF9FB /* pictpicker */ = {
 			isa = PBXGroup;
 			children = (
 				19428E49156915BF003DF9FB /* AppDelegate.h */,
 				19428E4A156915BF003DF9FB /* AppDelegate.m */,
 				19428E41156915BF003DF9FB /* Supporting Files */,
+				19428E69156916D8003DF9FB /* PicturePicker.h */,
+				19428E6A156916D8003DF9FB /* PicturePicker.m */,
+				19C5609117230EC200C9B6AA /* PetView.h */,
+				19C5609217230EC200C9B6AA /* PetView.m */,
+				19C560A1172469C700C9B6AA /* PetViewController.h */,
+				19C560A2172469C700C9B6AA /* PetViewController.m */,
 			);
-			path = Photo;
+			path = pictpicker;
 			sourceTree = "<group>";
 		};
 		19428E41156915BF003DF9FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				19428E42156915BF003DF9FB /* Photo-Info.plist */,
+				19428E42156915BF003DF9FB /* pictpicker-Info.plist */,
 				19428E43156915BF003DF9FB /* InfoPlist.strings */,
 				19428E46156915BF003DF9FB /* main.m */,
-				19428E48156915BF003DF9FB /* Photo-Prefix.pch */,
+				19428E48156915BF003DF9FB /* pictpicker-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		19428E58156915C0003DF9FB /* PhotoTests */ = {
+		19428E58156915C0003DF9FB /* pictpickerTests */ = {
 			isa = PBXGroup;
 			children = (
 				19428E5E156915C0003DF9FB /* PhotoTests.h */,
 				19428E5F156915C0003DF9FB /* PhotoTests.m */,
 				19428E59156915C0003DF9FB /* Supporting Files */,
 			);
-			path = PhotoTests;
+			path = pictpickerTests;
 			sourceTree = "<group>";
 		};
 		19428E59156915C0003DF9FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				19428E5A156915C0003DF9FB /* PhotoTests-Info.plist */,
+				19C5609E17231EB100C9B6AA /* Pets */,
+				19428E5A156915C0003DF9FB /* pictpickerTests-Info.plist */,
 				19428E5B156915C0003DF9FB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -146,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19428E35156915BF003DF9FB /* Photo */ = {
+		19428E35156915BF003DF9FB /* pictpicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19428E63156915C0003DF9FB /* Build configuration list for PBXNativeTarget "Photo" */;
+			buildConfigurationList = 19428E63156915C0003DF9FB /* Build configuration list for PBXNativeTarget "pictpicker" */;
 			buildPhases = (
 				19428E32156915BF003DF9FB /* Sources */,
 				19428E33156915BF003DF9FB /* Frameworks */,
@@ -158,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = Photo;
+			name = pictpicker;
 			productName = Photo;
-			productReference = 19428E36156915BF003DF9FB /* Photo.app */;
+			productReference = 19428E36156915BF003DF9FB /* pictpicker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		19428E50156915C0003DF9FB /* PhotoTests */ = {
+		19428E50156915C0003DF9FB /* pictpickerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19428E66156915C0003DF9FB /* Build configuration list for PBXNativeTarget "PhotoTests" */;
+			buildConfigurationList = 19428E66156915C0003DF9FB /* Build configuration list for PBXNativeTarget "pictpickerTests" */;
 			buildPhases = (
 				19428E4C156915C0003DF9FB /* Sources */,
 				19428E4D156915C0003DF9FB /* Frameworks */,
@@ -177,9 +197,9 @@
 			dependencies = (
 				19428E57156915C0003DF9FB /* PBXTargetDependency */,
 			);
-			name = PhotoTests;
+			name = pictpickerTests;
 			productName = PhotoTests;
-			productReference = 19428E51156915C0003DF9FB /* PhotoTests.octest */;
+			productReference = 19428E51156915C0003DF9FB /* pictpickerTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +210,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 19428E30156915BF003DF9FB /* Build configuration list for PBXProject "Photo" */;
+			buildConfigurationList = 19428E30156915BF003DF9FB /* Build configuration list for PBXProject "pictpicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19428E35156915BF003DF9FB /* Photo */,
-				19428E50156915C0003DF9FB /* PhotoTests */,
+				19428E35156915BF003DF9FB /* pictpicker */,
+				19428E50156915C0003DF9FB /* pictpickerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19428E45156915BF003DF9FB /* InfoPlist.strings in Resources */,
+				19C5609F17231EB100C9B6AA /* Pets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19428E5D156915C0003DF9FB /* InfoPlist.strings in Resources */,
+				19C560A017231EB100C9B6AA /* Pets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +272,9 @@
 			files = (
 				19428E47156915BF003DF9FB /* main.m in Sources */,
 				19428E4B156915BF003DF9FB /* AppDelegate.m in Sources */,
+				19428E6B156916D8003DF9FB /* PicturePicker.m in Sources */,
+				19C5609317230EC200C9B6AA /* PetView.m in Sources */,
+				19C560A3172469C700C9B6AA /* PetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19428E60156915C0003DF9FB /* PhotoTests.m in Sources */,
+				19C560A4172469C700C9B6AA /* PetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +292,7 @@
 /* Begin PBXTargetDependency section */
 		19428E57156915C0003DF9FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19428E35156915BF003DF9FB /* Photo */;
+			target = 19428E35156915BF003DF9FB /* pictpicker */;
 			targetProxy = 19428E56156915C0003DF9FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -296,7 +322,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -322,7 +348,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -342,9 +368,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Photo/Photo-Prefix.pch";
-				INFOPLIST_FILE = "Photo/Photo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "pictpicker/pictpicker-Prefix.pch";
+				INFOPLIST_FILE = "pictpicker/pictpicker-Info.plist";
+				PRODUCT_NAME = pictpicker;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -353,9 +379,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Photo/Photo-Prefix.pch";
-				INFOPLIST_FILE = "Photo/Photo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "pictpicker/pictpicker-Prefix.pch";
+				INFOPLIST_FILE = "pictpicker/pictpicker-Info.plist";
+				PRODUCT_NAME = pictpicker;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -370,8 +396,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Photo/Photo-Prefix.pch";
-				INFOPLIST_FILE = "PhotoTests/PhotoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PhotoTests/pictpickerTests-Info.plist";
+				PRODUCT_NAME = pictpickerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -387,8 +413,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Photo/Photo-Prefix.pch";
-				INFOPLIST_FILE = "PhotoTests/PhotoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PhotoTests/pictpickerTests-Info.plist";
+				PRODUCT_NAME = pictpickerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -397,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19428E30156915BF003DF9FB /* Build configuration list for PBXProject "Photo" */ = {
+		19428E30156915BF003DF9FB /* Build configuration list for PBXProject "pictpicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19428E61156915C0003DF9FB /* Debug */,
@@ -406,21 +432,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19428E63156915C0003DF9FB /* Build configuration list for PBXNativeTarget "Photo" */ = {
+		19428E63156915C0003DF9FB /* Build configuration list for PBXNativeTarget "pictpicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19428E64156915C0003DF9FB /* Debug */,
 				19428E65156915C0003DF9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		19428E66156915C0003DF9FB /* Build configuration list for PBXNativeTarget "PhotoTests" */ = {
+		19428E66156915C0003DF9FB /* Build configuration list for PBXNativeTarget "pictpickerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19428E67156915C0003DF9FB /* Debug */,
 				19428E68156915C0003DF9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
